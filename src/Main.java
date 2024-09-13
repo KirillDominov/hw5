@@ -35,21 +35,21 @@ public class Main {
                 System.out.println(a[index]);
                 break;
             }
-            System.out.print(a[index] + " ");
+            System.out.print(a[index] + ", ");
         }
         for (int index = 2; index < c.length; index--) {
             if (index == 0) {
                 System.out.println(c[index]);
                 break;
             }
-            System.out.print(c[index] + " ");
+            System.out.print(c[index] + ",");
         }
         for (int index = 3; index < d.length; index--) {
             if (index == 0) {
                 System.out.println(d[index]);
                 break;
             }
-            System.out.print(d[index] + " ");
+            System.out.print(d[index] + ", ");
         }
         System.out.println();
         System.out.println("Задача № 4");
